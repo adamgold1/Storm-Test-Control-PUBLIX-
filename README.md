@@ -27,7 +27,7 @@
 
 </div>
 
-
+---
 
 <div align="center">
 
@@ -38,27 +38,27 @@
 <td width="50%" align="center">
 
 ### ❌ **Without Storm Test**
-
+```diff
 - Manual test-id markup
 - Polluted source code  
 - Zombie processes
 - No live progress
 - Complex setup
 - Touch real files
-
+```
 
 </td>
 <td width="50%" align="center">
 
 ### ✅ **With Storm Test**
-
+```diff
 + Auto selector injection
 + Shadow copy isolation
 + Clean process lifecycle
 + Real-time streaming
 + One-click testing
 + Original stays pure
-
+```
 
 </td>
 </tr>
@@ -66,7 +66,7 @@
 
 </div>
 
-
+---
 
 ## 🎭 **The Magic Happens in Shadows**
 
@@ -74,7 +74,7 @@
 <img src="https://raw.githubusercontent.com/yourusername/storm-test-control/main/assets/architecture.png" alt="Architecture" width="80%" />
 </div>
 
-
+```mermaid
 graph LR
     A[🏗️ Your Project] -->|scan| B[🔍 Storm Scanner]
     B -->|clone| C[👥 Shadow Copy]
@@ -87,8 +87,9 @@ graph LR
     style C fill:#5E35B1,stroke:#4527A0,color:#fff
     style E fill:#0277BD,stroke:#01579B,color:#fff
     style F fill:#F57C00,stroke:#E65100,color:#fff
+```
 
-
+---
 
 ## 💎 **Features That Make It Legendary**
 
@@ -107,18 +108,18 @@ graph LR
 
 <div align="center">
 
-
+```typescript
 type TestSuite = 
   | '🔥 Smoke'      // Quick validation
   | '⚙️ Functional' // Feature testing
   | '🌐 E2E'        // User journeys
   | '🎨 UI'         // Visual checks
   | '🚀 Full'       // Everything
-
+```
 
 </div>
 
-
+---
 
 ## 🖥️ **Live Mission Control Dashboard**
 
@@ -147,7 +148,7 @@ type TestSuite =
 </table>
 </div>
 
-
+---
 
 ## ⚡ **Installation**
 
@@ -159,14 +160,14 @@ type TestSuite =
 
 </div>
 
-
+```bash
 # Or via command line
 code --install-extension storm-test-control
-
+```
 
 ### 🔧 **From Source**
 
-
+```bash
 # Clone the repository
 git clone https://github.com/yourusername/storm-test-control.git
 cd storm-test-control
@@ -178,9 +179,9 @@ cd python-core && pip install -r requirements.txt
 # Build and install
 npm run package
 code --install-extension storm-test-control-*.vsix
+```
 
-
-
+---
 
 ## 🚀 **Quick Start**
 
@@ -192,14 +193,14 @@ code --install-extension storm-test-control-*.vsix
 
 </div>
 
-
+```typescript
 // It's that simple
 await StormTest.scan(workspace);
 await StormTest.run('smoke');
 // Original project remains untouched ✨
+```
 
-
-
+---
 
 ## 📖 **Documentation**
 
@@ -234,14 +235,14 @@ await StormTest.run('smoke');
 </table>
 </div>
 
-
+---
 
 ## 🔥 **Killer Features In Detail**
 
 ### 🛡️ **Shadow Copy Isolation**
 Your original project is **NEVER** modified. Every test runs in an isolated shadow copy that's destroyed after completion.
 
-
+```yaml
 # .storm-test.yaml - Project-specific ignore rules
 ignore:
   - node_modules/
@@ -250,19 +251,19 @@ ignore:
   - "*.pyc"
   - __pycache__/
   # ... 150+ smart defaults
-
+```
 
 ### 📡 **Real-time WebSocket Streaming**
 Watch tests execute in real-time. No more waiting for the entire suite to finish.
 
-
+```javascript
 WebSocket → Live Progress → Instant Feedback
          ↓
     [▓▓▓▓▓▓░░░░] 60% 
     ✅ 45 passed
     ❌ 2 failed
     ⏭️ 3 skipped
-
+```
 
 ### 🎮 **Smart Runtime Control**
 - **During execution:** `Stop Tests` always available
@@ -290,7 +291,7 @@ Every run generates a beautiful report in `.storm-test-reports/`:
 - Failure analysis
 - Timeline breakdown
 
-
+---
 
 ## 🌍 **International Support**
 
@@ -302,6 +303,7 @@ Every run generates a beautiful report in `.storm-test-reports/`:
 
 </div>
 
+---
 
 ## 💻 **Supported Environments**
 
@@ -321,7 +323,7 @@ Every run generates a beautiful report in `.storm-test-reports/`:
 
 </div>
 
-
+---
 
 ## 🎬 **Demo**
 
@@ -349,7 +351,7 @@ Every run generates a beautiful report in `.storm-test-reports/`:
 
 </div>
 
-
+---
 
 ## 🗺️ **Roadmap**
 
@@ -364,7 +366,7 @@ Every run generates a beautiful report in `.storm-test-reports/`:
 
 </div>
 
-
+---
 
 ## 🤝 **Contributing**
 
@@ -380,7 +382,7 @@ We love contributions! Check out our [Contributing Guide](CONTRIBUTING.md) to ge
 
 </div>
 
-
+---
 
 ## 📈 **Stats That Matter**
 
@@ -397,7 +399,7 @@ We love contributions! Check out our [Contributing Guide](CONTRIBUTING.md) to ge
 
 </div>
 
-
+---
 
 ## 🏆 **Awards & Recognition**
 
@@ -411,7 +413,7 @@ We love contributions! Check out our [Contributing Guide](CONTRIBUTING.md) to ge
 
 </div>
 
-## 📞 **Contact Us**
+---
 
 ## 📜 **License**
 
@@ -423,7 +425,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 </div>
 
-
+---
 
 ## 🙏 **Acknowledgments**
 
@@ -448,7 +450,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 </div>
 
-
+---
 
 <div align="center">
 
@@ -467,7 +469,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 </div>
 
-
+---
 
 <div align="center">
 
